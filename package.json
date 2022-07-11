@@ -8,7 +8,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint ./src",
-    "play": "esno",
+    "play": "tsc --noEmit && esno",
     "test": "vitest run",
     "lint:ts": "tsc --noEmit"
   },
