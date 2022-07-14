@@ -7,6 +7,6 @@ describe('hello()', () => {
     const output = hello(input)
     const expected = `Hello ${input}`
 
-    expect(output).toEqual(expected)
+    expect(output).toBe(expected)
   })
 })
