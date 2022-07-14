@@ -3,6 +3,7 @@ In these katas the main purpose is to get use to the string template syntax. You
 
 **Rules**:
 - Do not use the legacy concatenation syntax `"string" + variable + number + "string"`
+- Do not use any special characters as such `\n` nor other to add a line jump
 
 ---
 
