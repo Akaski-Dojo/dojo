@@ -1,5 +1,10 @@
 function bookAndAuthor(bookName: string, authorName: string, datePublished: { month: string; day: number; year: number }): string {
-  return `---\n${bookName}\nby ${authorName}\n\n  Published: ${datePublished.month} ${datePublished.day}, ${datePublished.year}\n---`
+  return `---
+${bookName}
+by ${authorName}
+
+  Published: ${datePublished.month} ${datePublished.day}, ${datePublished.year}
+---`
 }
 
 console.log(bookAndAuthor(
